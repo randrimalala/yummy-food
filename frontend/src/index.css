@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+    /* Couleurs principales (branding) */
+    --color-primary: text-white;      /* Orange vif (couleur principale de Yummy Food) */
+    --color-secondary: #fb8b24;    /* Orange clair complémentaire */
+    --color-accent: #e36414;       /* Accentuation (boutons, hover) */
+    --color-alert: #d74e09;        /* Alerte / CTA fort */
+  
+    /* Neutres / Fond / Texte */
+    --color-dark: #252422;         /* Fond sombre principal */
+    --color-dark-alt: #403d39;     /* Texte sombre ou contrastes secondaires */
+    --color-light: #ccc5b9;        /* Gris clair pour sections */
+    --color-background: #fffcf2;   /* Fond général très clair */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .bg-navbar-overlay {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/ton-image-de-navbar.jpg');
+    background-size: cover;
+    background-position: center;
+}
